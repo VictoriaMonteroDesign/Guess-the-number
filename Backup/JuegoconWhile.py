@@ -8,6 +8,9 @@ numeroRandomGenerado = numeroRandom()
 print("Se ha seleccionado un numero entre 1 y 100")
 juego = int(input("Adivinemos cual es este numero\n¡Buena Suerte!\n"))
 
+if __name__ == '__main__':
+    numeroRandomGenerado = numeroRandom()
+
 while True:
     
     if juego > numeroRandomGenerado:
