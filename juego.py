@@ -5,13 +5,6 @@ def numeroRandom():
 
 numeroRandomGenerado = numeroRandom()
 
-'''
-if numeroRandomGenerado == 15:
-   print("El numero es 15")
-else:
-    print(f"El numero no es 15, es {numeroRandomEjemplo}")
-'''
-
 jugador = input("¡Hola jugador! Por favor ingresa tu nombre\n")
 print(f"Hola {jugador}")
 
